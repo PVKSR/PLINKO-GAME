@@ -49,7 +49,7 @@ function setup() {
 
    if(frameCount%90 === 0){
 
-    particles.push(new partical(width/2-10, width/2+10 ,10, 10))
+    particles.push(new partical(random(width/2-10, width/2+10) ,10, 10))
 
   }
  
